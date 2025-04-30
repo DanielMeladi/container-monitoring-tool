@@ -1,4 +1,4 @@
-# container-monitoring-tool
+# Container-Monitoring-Tool
 
 This tool monitors all `execve` system calls made by processes inside Docker containers, enabling near real-time logging of most terminal commands executed within them. It automatically detects new containers, attaches using `strace`, and forwards detailed execution logs — including command, PID, UID, timestamp, and container name — to an Elasticsearch instance for analysis and visualization in Kibana.
 
